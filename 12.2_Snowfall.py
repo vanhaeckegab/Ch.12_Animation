@@ -1,8 +1,8 @@
 '''
 SNOWFALL
 --------
-We are going to redo the Snowfall program we did in Chapter 11
-now that we have learned about classes. Meet the following requirements:
+Try to create the snowfall animation by meeting
+the following requirements:
 
 1.) Create a 600 x 600 window with black background
 2.) Window title equals "Snowfall"
