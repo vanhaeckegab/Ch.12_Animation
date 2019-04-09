@@ -14,4 +14,10 @@ Ball Bounce Program to create the following:
 8.) Bounce boxes off of the side rails when the box edge hits the side rail.
 9.) When the box bounces change its color to the rail it just hit.
 10.)Title the window 30 Boxes
+
+Helpful Hints:
+1.) When you initialize the MyGame class create an empty list called self.boxlist=[] to hold all of your boxes.
+2.) Then use a for i in range(30): list to instantiate boxes and append them to the list.
+3.) In the on_draw section use: for box in self.boxlist: box.draw_box()
+4.) In the on_update section use: for box in self.boxlist: box.update_box()
 '''
