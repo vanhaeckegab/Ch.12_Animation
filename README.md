@@ -5,7 +5,8 @@ In this chapter you will be learning about extending the Arcade Window Class and
 
 <h3>Jedi Tasks</h3>
 <ol>
+  <li>Jedi Training</li>
   <li>30 Box Bounce Program</li>
   <li>Snowfall Program</li>
-  <li>Take Home Test</li>
+
   </ol>
