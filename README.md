@@ -8,5 +8,5 @@ In this chapter you will be learning about extending the Arcade Window Class and
   <li>Jedi Training</li>
   <li>30 Box Bounce Program</li>
   <li>Snowfall Program</li>
-
+  <li>Animation Project</li>
   </ol>
