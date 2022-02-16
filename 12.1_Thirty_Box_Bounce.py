@@ -46,10 +46,18 @@ class Box:
         self.pos_y += self.dy
 
         # Bounce ball off of walls
-        if self.pos_x > SW - self.size/2 - 30 or self.pos_x < 30 + self.size/2:
+        if self.pos_x > SW - self.size/2 - 30:
             self.dx *= -1
-        if self.pos_y > SH - self.size/2 - 30 or self.pos_y < 30 + self.size/2:
+            self.col = arcade.color.UFO_GREEN
+        if self.pos_x < 30 + self.size/2:
+            self.dx *= -1
+            self.col = arcade.color.ALLOY_ORANGE
+        if self.pos_y > SH - self.size/2 - 30:
             self.dy *= -1
+            self.col = arcade.color.AO
+        if self.pos_y < 30 + self.size/2:
+            self.dy *= -1
+            self.col = arcade.color.RADICAL_RED
 
 
 class MyGame(arcade.Window):
