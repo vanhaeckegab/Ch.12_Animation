@@ -193,6 +193,7 @@ class MyGame(arcade.Window):
         for tree in self.trees:
             tree.update_tree()
         self.car.update_car()
+        print(dt)
 
 
 def main():
